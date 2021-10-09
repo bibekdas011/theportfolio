@@ -1,0 +1,112 @@
+label {
+  color: white;
+  margin: 0 auto;
+
+}
+
+form {
+  margin:  0px;
+  text-align: center;
+}
+
+div.center {
+
+    margin: auto;
+  width: 50%;
+  border: 5px solid #ff4d00;
+  padding: 10px;
+  border-radius: 15%;
+
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+
+.line {
+
+  width: 120px;
+  height: 3px;
+  background-color: #FFF;
+  position:absolute;
+  transition: all .4s ease-in-out;
+}
+
+a {
+  text-align: center;
+  display:  inline-block
+  position: relative;
+
+}
+
+
+
+a:nth child(1):hover ~ .line {
+      transform: translate(100px);
+      transition: all .4s ease-in-out;
+
+}
+a:nth-child(2):hover ~ .line {
+
+  transform: translate(204px);
+  transition: all .4s ease-in-out;
+}
+a:nth-child(3):hover ~ .line {
+      transform: translate(400px);
+      transition: all .4s ease-in-out;
+
+}
+
+a:nth-child(4):hover ~ .line {
+        transform: translate(660px);
+        transition: all .4s ease-in-out;
+
+}
+
+a:nth-child(5):hover ~ .line {
+      transform: translate(900px);
+      transition: all .4s ease-in-out;
+
+}
+
+
+.SpecialImg {
+float: right;
+
+}
+
+#googleForm {
+  text-align: center;
+
+
+
+}
+
+iframe {
+  color: white;
+}
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#DC2424, #4A569D);
+  background-radius: 8px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  bacgkround: red;
+}

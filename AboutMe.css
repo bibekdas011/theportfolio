@@ -1,0 +1,106 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+body {
+  background-color: #313639;
+}
+p {
+    font-size: 17px;
+    text-align: left;
+    float: right;
+    color: white;
+
+}
+
+img.me {
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0px;
+    width: 500;
+    float: left;
+    display: block;
+
+}
+
+img.me:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 140, 186, 0.5)
+}
+
+img.certain {
+
+  float: right;
+}
+
+
+
+ .line {
+
+  width: 120px;
+  height: 3px;
+  background-color: #FFF;
+  position:absolute;
+  transition: all .4s ease-in-out;
+}
+
+a {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+
+}
+
+a:nth-child(1):hover ~ .line {
+        transform: translate(100px)
+        transition: all .4s ease-in-out
+
+}
+
+
+a:nth-child(2):hover ~ .line {
+
+  transform: translate(204px);
+  transition: all .4s ease-in-out
+}
+a:nth-child(3):hover ~ .line {
+      transform: translate(440px);
+      transition: all .4s ease-in-out
+
+}
+
+a:nth-child(4):hover ~ .line {
+        transform: translate(700px);
+        transition: all .4s ease-in-out
+
+}
+
+a:nth-child(5):hover ~ .line {
+        transform: translate(900px);
+        transition: all .4s ease-in-out;
+
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#DC2424, #4A569D);
+  background-radius: 8px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  bacgkround: red;
+}
